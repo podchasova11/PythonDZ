@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 
-# Исходные данные
+# Исходн. данные
 lst = ['robot'] * 10
 lst += ['human'] * 10
 random.shuffle(lst)
@@ -19,3 +19,4 @@ for index, row in data.iterrows():
 
 one_hot_df.head()
 print(one_hot_df.head())
+
